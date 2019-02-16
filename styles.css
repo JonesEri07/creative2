@@ -1,0 +1,94 @@
+.category-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+    width: 75%;
+    margin: auto;
+
+  }
+  .category-cards a {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+    width: 23vw;
+    height: 18vw;
+  }
+
+  .category-cards a img {
+    height: inherit;
+  }
+
+  .category-cards a h4 {
+    position: relative;
+    top: 15%;
+    font-size: 4vw;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    text-shadow: 0 0 8px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 8px #000;
+  -webkit-text-shadow: 0 0 8px #000;
+  }
+
+body {
+  height: inherit;
+  background-image: url(/images/restaurants.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+  }
+
+.main-body-div {
+  overflow: auto;
+  position: fixed;
+  top: 0px;
+  bottom: 56px;
+  left: 0;
+  right: 0;
+}
+
+.myform {
+  width: 75%;
+  margin: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+.myList {
+  width: 75%;
+  margin: auto;
+}
+
+body h1, h2 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 5vw;
+  color: Black;
+  text-shadow: 0 0 2px #FFF; /* horizontal-offset vertical-offset 'blur' colour */
+-moz-text-shadow: 0 0 2px #FFF;
+-webkit-text-shadow: 0 0 2px #FFF;
+}
+
+body h2 {
+  font-size: 2vw;
+}
+
+.header-text, .form-wrapper {
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+}
+.form-wrapper {
+  margin-top: 40px;
+}
+.page-footer {
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.85);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
